@@ -29,7 +29,7 @@ export default function Header({ nav = true }: {
                   </Link>
                 </li> */}
                 <li className="ml-3">
-                  <Link className="btn-sm text-white bg-blue-500 hover:bg-blue-600 w-full shadow-sm" href="/signup">
+                  <Link className="btn-sm text-white bg-blue-400 hover:bg-blue-400 w-full shadow-sm" href="/signup">
                     Join The Community
                   </Link>
                 </li>
