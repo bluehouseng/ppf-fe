@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import HeroImage from '@/public/images/hero-image.png'
+import HeroImage from '@/public/images/ppf 1.jpg'
 
 export default function Hero() {
   return (
