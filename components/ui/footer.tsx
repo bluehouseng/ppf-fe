@@ -70,7 +70,7 @@ export default function Footer() {
                       <FontAwesomeIcon icon={faPhone} className='w-6 h-6' />
                     </span>
                     
-                    <p className="text-xl font-bold">
+                    <p className="text-xl text-blue-400">
                       07053538137, 08155334722
                     </p>
                   </li>
@@ -89,8 +89,8 @@ export default function Footer() {
                 </div>
               </div>
               {/* Bottom notes */}
-              <div className="text-xs text-gray-400 text-center md:text-left">
-                Empowering Youth for Sustainable Development: Transforming Governance from Grassroots to Global. Join us in shaping a better future. © 2024 Prince Ponfa Miri Foundation. All Rights Reserved.{' '}
+              <div className="text-xs text-gray-400 text-center md:text-left justify-center">
+                 © 2024 Prince Ponfa Miri Foundation. All Rights Reserved.{' '}
                 <a className="font-medium text-blue-500 decoration-blue-500 underline-offset-2 hover:underline" href="#0">
                   contact us
                 </a>

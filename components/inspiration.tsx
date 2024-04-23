@@ -4,12 +4,12 @@ import { useState } from 'react'
 
 import Link from 'next/link'
 import Image from 'next/image'
-import ppmf15 from '@/public/images/ppmf15.jpg'
+import logo from '@/public/images/logo.png'
 import ppfe2 from '@/public/images/ppfe2.jpg'
 import ppfe0 from '@/public/images/ppfe0.jpg'
 import ppfe5 from '@/public/images/ppfe5.png'
 import ppfe3 from '@/public/images/ppfe3.jpg'
-import ppfe9 from '@/public/images/ppfe9.jpg'
+import ppmf17 from '@/public/images/ppmf17.jpg'
 import ppfe12 from '@/public/images/ppfe12.jpg'
 // import ppfe13 from '@/public/images/ppfe13.jpg'
 // import Inspiration08 from '@/public/images/inspiration-08.jpg'
@@ -37,31 +37,31 @@ export default function Inspiration() {
             
             <div className="mb-8">
               <div className="flex flex-wrap justify-center md:justify-start -m-1.5">
-                <button className={`relative font-medium text-gray-800 text-sm pl-3 pr-1.5 py-1.5 border rounded-full inline-flex m-1.5 ${category === '0' ? 'bg-blue-100 border-blue-300' : 'bg-white border-gray-200'}`} onClick={() => setCategory('0')}>
+                <button className={`relative font-medium text-gray-800 text-sm pl-3 pr-1.5 py-1.5 bg-blue-300 border rounded-full inline-flex m-1.5 ${category === '0' ? 'bg-blue-400 border-blue-300' : 'bg-white border-gray-200'}`} onClick={() => setCategory('0')}>
                   <div className="flex items-center justify-center">
                     <span></span>
                     <span className={`text-xs font-semibold px-1 py-px rounded-full ml-2 ${category === '0' ? 'text-white bg-blue-300' : 'text-gray-400 bg-gray-100'}`}></span>
                   </div>
                 </button>
-                <button className={`relative font-medium text-gray-800 text-sm pl-3 pr-1.5 py-1.5 border rounded-full inline-flex m-1.5 ${category === '1' ? 'bg-blue-100 border-blue-300' : 'bg-white border-gray-200'}`} onClick={() => setCategory('1')}>
+                <button className={`relative font-medium text-gray-800 text-sm pl-3 pr-1.5 py-1.5 border bg-blue-300 rounded-full inline-flex m-1.5 ${category === '1' ? 'bg-blue-400 border-blue-300' : 'bg-white border-gray-200'}`} onClick={() => setCategory('1')}>
                   <div className="flex items-center justify-center">
                     <span></span>
                     <span className={`text-xs font-semibold px-1 py-px rounded-full ml-2 ${category === '1' ? 'text-white bg-blue-300' : 'text-gray-400 bg-gray-100'}`}></span>
                   </div>
                 </button>
-                <button className={`relative font-medium text-gray-800 text-sm pl-3 pr-1.5 py-1.5 border rounded-full inline-flex m-1.5 ${category === '2' ? 'bg-blue-100 border-blue-300' : 'bg-white border-gray-200'}`} onClick={() => setCategory('2')}>
+                <button className={`relative font-medium text-gray-800 text-sm pl-3 pr-1.5 py-1.5 bg-blue-400 border rounded-full inline-flex m-1.5 ${category === '2' ? 'bg-blue-100 border-blue-300' : 'bg-white border-gray-200'}`} onClick={() => setCategory('2')}>
                   <div className="flex items-center justify-center">
                     <span></span>
                     <span className={`text-xs font-semibold px-1 py-px rounded-full ml-2 ${category === '2' ? 'text-white bg-blue-300' : 'text-gray-400 bg-gray-100'}`}></span>
                   </div>
                 </button>
-                <button className={`relative font-medium text-gray-800 text-sm pl-3 pr-1.5 py-1.5 border rounded-full inline-flex m-1.5 ${category === '3' ? 'bg-blue-100 border-blue-300' : 'bg-white border-gray-200'}`} onClick={() => setCategory('3')}>
+                <button className={`relative font-medium text-gray-800 text-sm pl-3 pr-1.5 py-1.5 bg-blue-400 border rounded-full inline-flex m-1.5 ${category === '3' ? 'bg-blue-100 border-blue-300' : 'bg-white border-gray-200'}`} onClick={() => setCategory('3')}>
                   <div className="flex items-center justify-center">
                     <span></span>
                     <span className={`text-xs font-semibold px-1 py-px rounded-full ml-2 ${category === '3' ? 'text-white bg-blue-300' : 'text-gray-400 bg-gray-100'}`}></span>
                   </div>
                 </button>
-                <button className={`relative font-medium text-gray-800 text-sm pl-3 pr-1.5 py-1.5 border rounded-full inline-flex m-1.5 ${category === '4' ? 'bg-blue-100 border-blue-300' : 'bg-white border-gray-200'}`} onClick={() => setCategory('4')}>
+                <button className={`relative font-medium text-gray-800 text-sm pl-3 pr-1.5 py-1.5 bg-blue-400 border rounded-full inline-flex m-1.5 ${category === '4' ? 'bg-blue-100 border-blue-300' : 'bg-white border-gray-200'}`} onClick={() => setCategory('4')}>
                   <div className="flex items-center justify-center">
                     <span></span>
                     <span className={`text-xs font-semibold px-1 py-px rounded-full ml-2 ${category === '4' ? 'text-white bg-blue-300' : 'text-gray-400 bg-gray-100'}`}></span>
@@ -84,10 +84,10 @@ export default function Inspiration() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image className="shrink-0 w-9 h-9 rounded-full mr-4" src={ppmf15} width="36" height="36" alt="Author 01" />
+                        <Image className="shrink-0 w-9 h-9 rounded-full mr-4" src={logo} width="36" height="36" alt="logo" />
                         <div className="truncate">
                           <div className="font-bold text-white truncate">PPMFoundation</div>
-                          <div className="text-xs text-white opacity-60 truncate">Code Plateau</div>
+                          <div className="text-xs text-white opacity-60 truncate">Code Plateau!...</div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -114,10 +114,10 @@ export default function Inspiration() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={ppmf15} width={40} height={40} alt="Author 01" />
+                        <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={logo} width={40} height={40} alt="logo" />
                         <div className="truncate">
                           <div className="font-bold text-white truncate">PPMFoundation</div>
-                          <div className="text-xs text-white opacity-60 truncate">Collaboration with CYPA Africa</div>
+                          <div className="text-xs text-white opacity-60 truncate">Collaboration with CYPA Africa!...</div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -144,10 +144,10 @@ export default function Inspiration() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={ppmf15} width={40} height={40} alt="Author 01" />
+                        <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={logo} width={40} height={40} alt="logo" />
                         <div className="truncate">
                           <div className="font-bold text-white truncate">PPMFoundation</div>
-                          <div className="text-xs text-white opacity-60 truncate">Code Plateau</div>
+                          <div className="text-xs text-white opacity-60 truncate">Code Plateau!...</div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -174,10 +174,10 @@ export default function Inspiration() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={ppmf15} width={40} height={40} alt="Author 01" />
+                        <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={logo} width={40} height={40} alt="logo" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Ada Ahdiyat</div>
-                          <div className="text-xs text-white opacity-60 truncate">@ada-designer-ok</div>
+                          <div className="font-bold text-white truncate">PPMFoundation</div>
+                          <div className="text-xs text-white opacity-60 truncate">Collaboration with BlueHouse Tech!...</div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -188,14 +188,14 @@ export default function Inspiration() {
                             <path d="M14.682 1.318A4.485 4.485 0 0 0 11.5 0 4.377 4.377 0 0 0 8 1.707 4.383 4.383 0 0 0 4.5 0a4.5 4.5 0 0 0-3.182 7.682L8 14l6.682-6.318a4.5 4.5 0 0 0 0-6.364Zm-1.4 4.933L8 11.247l-5.285-5A2.5 2.5 0 0 1 4.5 2c1.437 0 2.312.681 3.5 2.625C9.187 2.681 10.062 2 11.5 2a2.5 2.5 0 0 1 1.785 4.251h-.003Z" fillRule="nonzero" />
                           </svg>
                         </button>
-                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2">4K</div>
+                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2"></div>
                       </div>
                     </div>
                   </div>
                 </a>
                 {/* 5th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={!['0', '1', '2'].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="400">
-                  <Image className="w-full aspect-square object-cover" src={ppfe9} width="352" height="352" alt="ppfe 05" />
+                  <Image className="w-full aspect-square object-cover" src={ppmf17} width="352" height="352" alt="ppfe 05" />
                   {/* Content on hover */}
                   <div className="md:hidden md:group-hover:block absolute bottom-0 left-0 right-0 p-4">
                     {/* Backdrop */}
@@ -204,10 +204,10 @@ export default function Inspiration() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={ppmf15} width={40} height={40} alt="Author 01" />
+                        <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={logo} width={40} height={40} alt="logo" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Ada Ahdiyat</div>
-                          <div className="text-xs text-white opacity-60 truncate">@ada-designer-ok</div>
+                          <div className="font-bold text-white truncate">PPMFoundation</div>
+                          <div className="text-xs text-white opacity-60 truncate">Collaboration with Toyin Wiggins Centre For Leadership and Mentoring Initiative!...</div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -218,7 +218,7 @@ export default function Inspiration() {
                             <path d="M14.682 1.318A4.485 4.485 0 0 0 11.5 0 4.377 4.377 0 0 0 8 1.707 4.383 4.383 0 0 0 4.5 0a4.5 4.5 0 0 0-3.182 7.682L8 14l6.682-6.318a4.5 4.5 0 0 0 0-6.364Zm-1.4 4.933L8 11.247l-5.285-5A2.5 2.5 0 0 1 4.5 2c1.437 0 2.312.681 3.5 2.625C9.187 2.681 10.062 2 11.5 2a2.5 2.5 0 0 1 1.785 4.251h-.003Z" fillRule="nonzero" />
                           </svg>
                         </button>
-                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2">4K</div>
+                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2"></div>
                       </div>
                     </div>
                   </div>
@@ -234,10 +234,10 @@ export default function Inspiration() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={ppmf15} width={40} height={40} alt="Author 01" />
+                        <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={logo} width={40} height={40} alt="logo" />
                         <div className="truncate">
                           <div className="font-bold text-white truncate">PPMFoundation</div>
-                          <div className="text-xs text-white opacity-60 truncate"></div>
+                          <div className="text-xs text-white opacity-60 truncate">Collaboraion with CYPA Africa!...</div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -248,7 +248,7 @@ export default function Inspiration() {
                             <path d="M14.682 1.318A4.485 4.485 0 0 0 11.5 0 4.377 4.377 0 0 0 8 1.707 4.383 4.383 0 0 0 4.5 0a4.5 4.5 0 0 0-3.182 7.682L8 14l6.682-6.318a4.5 4.5 0 0 0 0-6.364Zm-1.4 4.933L8 11.247l-5.285-5A2.5 2.5 0 0 1 4.5 2c1.437 0 2.312.681 3.5 2.625C9.187 2.681 10.062 2 11.5 2a2.5 2.5 0 0 1 1.785 4.251h-.003Z" fillRule="nonzero" />
                           </svg>
                         </button>
-                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2">4K</div>
+                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2"></div>
                       </div>
                     </div>
                   </div>
@@ -264,10 +264,10 @@ export default function Inspiration() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={ppmf15} width={40} height={40} alt="Author 01" />
+                        <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={logo} width={40} height={40} alt="logo" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Ada Ahdiyat</div>
-                          <div className="text-xs text-white opacity-60 truncate">@ada-designer-ok</div>
+                          <div className="font-bold text-white truncate">PPMFoundation</div>
+                          <div className="text-xs text-white opacity-60 truncate"></div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -278,7 +278,7 @@ export default function Inspiration() {
                             <path d="M14.682 1.318A4.485 4.485 0 0 0 11.5 0 4.377 4.377 0 0 0 8 1.707 4.383 4.383 0 0 0 4.5 0a4.5 4.5 0 0 0-3.182 7.682L8 14l6.682-6.318a4.5 4.5 0 0 0 0-6.364Zm-1.4 4.933L8 11.247l-5.285-5A2.5 2.5 0 0 1 4.5 2c1.437 0 2.312.681 3.5 2.625C9.187 2.681 10.062 2 11.5 2a2.5 2.5 0 0 1 1.785 4.251h-.003Z" fillRule="nonzero" />
                           </svg>
                         </button>
-                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2">4K</div>
+                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2"></div>
                       </div>
                     </div>
                   </div>
@@ -294,10 +294,10 @@ export default function Inspiration() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={ppmf15} width={40} height={40} alt="Author 01" />
+                        <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={logo} width={40} height={40} alt="logo" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Ada Ahdiyat</div>
-                          <div className="text-xs text-white opacity-60 truncate">@ada-designer-ok</div>
+                          <div className="font-bold text-white truncate">PPMFoundation</div>
+                          <div className="text-xs text-white opacity-60 truncate"></div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -308,7 +308,7 @@ export default function Inspiration() {
                             <path d="M14.682 1.318A4.485 4.485 0 0 0 11.5 0 4.377 4.377 0 0 0 8 1.707 4.383 4.383 0 0 0 4.5 0a4.5 4.5 0 0 0-3.182 7.682L8 14l6.682-6.318a4.5 4.5 0 0 0 0-6.364Zm-1.4 4.933L8 11.247l-5.285-5A2.5 2.5 0 0 1 4.5 2c1.437 0 2.312.681 3.5 2.625C9.187 2.681 10.062 2 11.5 2a2.5 2.5 0 0 1 1.785 4.251h-.003Z" fillRule="nonzero" />
                           </svg>
                         </button>
-                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2">4K</div>
+                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2"></div>
                       </div>
                     </div>
                   </div>
@@ -324,10 +324,10 @@ export default function Inspiration() {
                     <div className="relative flex justify-between">
                       {/* Left side */}
                       <div className="flex items-center">
-                        <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={ppmf15} width={40} height={40} alt="Author 01" />
+                        <Image className="shrink-0 w-10 h-10 rounded-full mr-4" src={logo} width={40} height={40} alt="logo" />
                         <div className="truncate">
-                          <div className="font-bold text-white truncate">Ada Ahdiyat</div>
-                          <div className="text-xs text-white opacity-60 truncate">@ada-designer-ok</div>
+                          <div className="font-bold text-white truncate">PPMFoundation</div>
+                          <div className="text-xs text-white opacity-60 truncate"></div>
                         </div>
                       </div>
                       {/* Right side */}
@@ -338,18 +338,18 @@ export default function Inspiration() {
                             <path d="M14.682 1.318A4.485 4.485 0 0 0 11.5 0 4.377 4.377 0 0 0 8 1.707 4.383 4.383 0 0 0 4.5 0a4.5 4.5 0 0 0-3.182 7.682L8 14l6.682-6.318a4.5 4.5 0 0 0 0-6.364Zm-1.4 4.933L8 11.247l-5.285-5A2.5 2.5 0 0 1 4.5 2c1.437 0 2.312.681 3.5 2.625C9.187 2.681 10.062 2 11.5 2a2.5 2.5 0 0 1 1.785 4.251h-.003Z" fillRule="nonzero" />
                           </svg>
                         </button>
-                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2">4K</div>
+                        <div className="whitespace-nowrap text-sm text-white opacity-90 ml-2"></div>
                       </div>
                     </div>
                   </div>
                 </a>
               </div>
               {/* CTA */}
-              <div className="absolute bottom-0 left-0 right-0 h-[352px] bg-gradient-to-t from-white to-transparent">
+              {/* <div className="absolute bottom-0 left-0 right-0 h-[352px] bg-gradient-to-t from-white to-transparent">
                 <div className="flex h-full items-end justify-center">
                   <Link className="btn text-white bg-blue-500 hover:bg-blue-600 shadow-sm mb-6" href="/signup">Join The Community</Link>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
