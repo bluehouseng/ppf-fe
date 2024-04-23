@@ -34,9 +34,9 @@ export default function Header({ nav = true }: {
                 </li> */}
                 <li className="ml-3">
                 <ul className="inline-flex mb-4 md:order-2 md:ml-4 md:mb-0">
-                <li className="mb-5 font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800 ">
+                {/* <li className="mb-5 font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800 "> */}
                    
-                   <a target='blank' href="https://www.facebook.com/princepmfoundation"> <span className='text-3xl text-blue-400 mr-2 pt-2 p-3'>
+                   {/* <a target='blank' href="https://www.facebook.com/princepmfoundation"> <span className='text-3xl text-blue-400 mr-2 pt-2 p-3'>
                      <FontAwesomeIcon icon={faFacebook} className='w-8 h-8' />
                    </span></a>
                  </li>
@@ -45,8 +45,8 @@ export default function Header({ nav = true }: {
                    <a target='blank' href="https://twitter.com/PPMFoundation">  <span className='text-3xl text-blue-400 mr-2 pt-1 p-3'>
                      <FontAwesomeIcon icon={faTwitter} className='w-6 h-6' />
                    </span></a>
-                 </li>
-                 {/* <li className="mb-4 font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800">
+                 </li> 
+                 <li className="mb-4 font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800">
                    <span className='text-3xl text-blue-400 mr-2 pt-2 p-3'>
                      <FontAwesomeIcon icon={faPhone} className='w-6 h-6' />
                    </span>
