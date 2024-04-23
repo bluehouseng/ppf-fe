@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
-
+import LogoImage from '@/public/images/logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import HeroImage from '@/public/images/ppf 1.jpg'
 
 export default function Hero() {
@@ -45,9 +48,27 @@ export default function Hero() {
                 data-aos-delay="300"
               >
                 <div>
-                  <Link className="btn text-white bg-blue-400 hover:bg-blue-400 w-full shadow-sm" href="/signup">
-                    Join The Community
-                  </Link>
+                <ul className="inline-flex mb-4 md:order-2 md:ml-4 md:mb-0">
+                <li className="mb-5 font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800 ">
+                   
+                   <a target='blank' href="https://www.facebook.com/princepmfoundation"> <span className='text-3xl text-blue-400 mr-2 pt-2 p-3'>
+                     <FontAwesomeIcon icon={faFacebook} className='w-8 h-8' />
+                   </span></a>
+                 </li>
+                 <li className="mb-5 font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800 ">
+                 
+                   <a target='blank' href="https://twitter.com/PPMFoundation">  <span className='text-3xl text-blue-400 mr-2 pt-1 p-3'>
+                     <FontAwesomeIcon icon={faTwitter} className='w-6 h-6' />
+                   </span></a>
+                 </li>
+                 <li className="mb-4 font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800">
+                   <span className='text-3xl text-blue-400 mr-2 pt-2 p-3'>
+                     <FontAwesomeIcon icon={faPhone} className='w-6 h-6' />
+                   </span>
+                   
+                   
+                 </li>
+               </ul>
                 </div>
                 {/* <div>
                   <Link className="btn text-gray-600 bg-white hover:bg-blue-100 hover:text-blue-600 w-full shadow-sm" href="/signin">
