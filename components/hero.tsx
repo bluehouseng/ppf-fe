@@ -64,7 +64,7 @@ export default function Hero() {
                  </li>
                  <li className="mb-5 font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800 ">
                  
-                   <a target='blank' href="#">  <span className='text-3xl text-blue-400 mr-2 pt-1 p-3'>
+                   <a target='blank' href="mailto:info@princepmfoundation.org">  <span className='text-3xl text-blue-400 mr-2 pt-1 p-3'>
                    <FontAwesomeIcon icon={faEnvelope} />
 
                    </span></a>
