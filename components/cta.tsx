@@ -8,7 +8,7 @@ export default function Cta() {
           {/* CTA box */}
           <div className="relative py-12 px-8 md:py-20 md:px-12">
             {/* Dark box */}
-            <div className="absolute inset-0 bg-gray-800 -rotate-2 -z-10" aria-hidden="true" />
+            <div className="absolute inset-0 bg-blue-600 -rotate-2 -z-10" aria-hidden="true" />
             <div className="flex flex-col lg:flex-row justify-between items-center">
               {/* CTA content */}
               <div className="relative mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left">
@@ -19,12 +19,12 @@ export default function Cta() {
                     fillRule="evenodd"
                   />
                 </svg>
-                <h3 className="h2 font-cabinet-grotesk text-gray-100">Become a member of the best creative community</h3>
+                <h3 className="h2 font-cabinet-grotesk text-gray-100">Youth is a Currency that quickly fades. Spend yours wisely</h3>
               </div>
               {/* CTA button */}
               <div className="shrink-0">
-                <Link className="btn text-white bg-blue-500 hover:bg-blue-600 w-full shadow-sm" href="/signup">
-                  Join The Community
+                <Link className="btn text-white bg-blue-500 hover:bg-blue-600 w-full shadow-sm" href="#">
+                  Inform.Inspire.Engage
                 </Link>
               </div>
             </div>
