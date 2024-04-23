@@ -19,11 +19,11 @@ export default function Home() {
       <Hero />
       <Inspiration />
       {/* <Carousel /> */}
-      <Creatives />
+      {/* <Creatives /> */}
       {/* <Pricing /> */}
       <Testimonials />
       <Faqs />
-      <Blog />
+      {/* <Blog /> */}
       <Cta />
     </>
   )
